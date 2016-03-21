@@ -4,7 +4,7 @@ Donate link: https://web-dorado.com/products/wordpress-slider-plugin.html
 Tags: image slider, slider, slideshow, image, images, responsive, shortcode, widget, jquery, gallery, swipe, layer
 Requires at least: 3.4
 Tested up to: 4.4
-Stable tag: 1.1.23
+Stable tag: 1.1.24
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -159,6 +159,9 @@ After downloading the ZIP file of the slider plugin,
 
 
 == Changelog ==
+
+= 1.1.24 =
+*  Updated: Google fonts list.   
 
 = 1.1.23 =
 *  Fixed: Bug in layer effect        
