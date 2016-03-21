@@ -1,0 +1,112 @@
+/*
+ Theme Name:   interface-pro-child
+ Theme URI:    http://example.com/interface-pro-child/
+ Description:  Interface Pro Child Theme - Interface Pro
+ Author:       Annie Schubert
+ Author URI:   http://example.com
+ Template:     interface-pro
+ Version:      1.0.0
+ Tags:         white, light, green, two-columns, left-sidebar, right-sidebar, fluid-layout, custom-menu, custom-background, custom-header, featured-images, full-width-template, theme-options, threaded-comments, translation-ready, sticky-post
+ Text Domain:  interface-pro-child
+*/
+
+
+@import url("../interface-pro/style.css");
+
+/* Header */
+#colophon .widget-wrap {
+	background-color: #6D6E71;
+}
+
+#site-title a span,
+#site-title a:hover,
+#site-title a:focus,
+#site-title a:active {
+	color: #0a4699;
+}
+
+#access a:hover, #access ul li.current-menu-item a, #access ul li.current_page_ancestor a, #access ul li.current-menu-ancestor a, #access ul li.current_page_item a, #access ul li:hover > a {
+    color:  #0a4699;
+}
+
+input[type="reset"], input[type="button"], input[type="submit"] {
+    background-color: #0a4699;
+}
+
+.search-toggle:hover, .hgroup-right .active {
+    color:  #0a4699;
+}
+
+/* Body */
+::selection {
+    background: #3574de;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #3574de;
+    color: #fff;
+}
+
+blockquote {
+    background-color: #f1f1f1;
+    border-left: 4px solid #0a4699;
+}
+
+/* Homepage */
+.page-title-wrap {
+	background-color: #0a4699;
+}
+
+#text-3.widget.widget_text {
+	text-align: center;
+}
+
+.hgroup-wrap {
+  
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: -1px;
+    padding: 20px 0;
+}
+
+.slogan-wrap {
+    background-color: #0a4699;
+}
+
+.slogan-wrap .slogan {
+    color: #fff;
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Contact Page */
+
+.widget_ourclients {
+    background-color: #ffffff;
+}
+
+
+/* Footer */
+#site-generator .copyright a:hover {
+    color: #0a4699;
+}
+
+.back-to-top a:hover {
+	background-color: #0a4699;
+}
+
+a {
+    color: #0a4699;
+    text-decoration: none;
+}
+
+.one-third {
+    color: #ffffff;
+}
+
+
+

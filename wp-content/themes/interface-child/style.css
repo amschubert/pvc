@@ -1,0 +1,70 @@
+/*
+ Theme Name:   interface-child
+ Theme URI:    http://example.com/interface-child/
+ Description:  Interface Child Theme - Interface
+ Author:       Annie Schubert
+ Author URI:   http://example.com
+ Template:     interface
+ Version:      1.0.0
+ Tags:         white, light, green, two-columns, left-sidebar, right-sidebar, fluid-layout, custom-menu, custom-background, custom-header, featured-images, full-width-template, theme-options, threaded-comments, translation-ready, sticky-post
+ Text Domain:  interface-child
+*/
+
+@import url("../interface/style.css");
+
+/* Header */
+#colophon .widget-wrap {
+	background-color: #6D6E71;
+}
+
+#site-title a span,
+#site-title a:hover,
+#site-title a:focus,
+#site-title a:active {
+	color: #0a4699;
+}
+
+#access a:hover, #access ul li.current-menu-item a, #access ul li.current_page_ancestor a, #access ul li.current-menu-ancestor a, #access ul li.current_page_item a, #access ul li:hover > a {
+    color:  #0a4699;
+}
+
+input[type="reset"], input[type="button"], input[type="submit"] {
+    background-color: #6D6E71;
+}
+
+.search-toggle:hover, .hgroup-right .active {
+    color:  #0a4699;
+}
+
+/* Homepage */
+.page-title-wrap {
+	background-color: #0a4699;
+}
+
+#text-3.widget.widget_text {
+	text-align: center;
+}
+
+.hgroup-wrap {
+  
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: -1px;
+    padding: 20px 0;
+}
+
+.slogan-wrap {
+    background-color: #0a4699;
+}
+
+.slogan-wrap .slogan {
+    color: #fff;
+    font-size: 30px;
+    font-weight: lighter;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
